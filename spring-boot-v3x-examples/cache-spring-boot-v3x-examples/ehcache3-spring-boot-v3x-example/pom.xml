@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.vergilyn.examples.spring.boot.v3x.cache</groupId>
+        <artifactId>cache-spring-boot-v3x-examples</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>ehcache3-spring-boot-v3x-example</artifactId>
+    <packaging>jar</packaging>
+
+    <properties>
+        <ehcache3.version>3.10.8</ehcache3.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.ehcache</groupId>
+            <artifactId>ehcache</artifactId>
+            <version>${ehcache3.version}</version>
+        </dependency>
+
+        <!-- ehcache3 依赖JSR-107。参考：ehcache3 的pom依赖 -->
+        <dependency>
+            <groupId>javax.cache</groupId>
+            <artifactId>cache-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>2.3.3</version>
+        </dependency>
+    </dependencies>
+</project>
