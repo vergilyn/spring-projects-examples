@@ -21,6 +21,7 @@
     <modules>
         <module>spring-boot-v2x-examples</module>
         <module>spring-boot-v3x-examples</module>
+        <module>spring-retry-examples</module>
     </modules>
 
     <properties>

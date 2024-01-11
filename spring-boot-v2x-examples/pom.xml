@@ -12,7 +12,9 @@
     <groupId>com.vergilyn.examples.spring.boot.v2x</groupId>
     <artifactId>spring-boot-v2x-examples</artifactId>
     <packaging>pom</packaging>
+
     <modules>
+        <module>aop-proxy-spring-boot-v2x-examples</module>
         <module>cache-spring-boot-v2x-examples</module>
     </modules>
 

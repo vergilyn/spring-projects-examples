@@ -1,9 +1,9 @@
 # spring-projects-examples
 
-|                          | spring-boot | jdk |
-|--------------------------|-------------|-----|
-| spring-boot-v2x-examples | 2.7.18      | 1.8 |
-| spring-boot-v3x-examples | 3.2.1       | 17  |
+|                          | spring-boot | spring | jdk |
+|--------------------------|-------------|--------|-----|
+| spring-boot-v2x-examples | 2.7.18      | 5.3.31 | 1.8 |
+| spring-boot-v3x-examples | 3.2.1       | 6.1.2  | 17  |
 
 **备注：**
 
