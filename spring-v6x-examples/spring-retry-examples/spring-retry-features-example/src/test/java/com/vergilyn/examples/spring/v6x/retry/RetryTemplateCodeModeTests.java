@@ -1,9 +1,8 @@
-package com.vergilyn.examples.spring.retry;
+package com.vergilyn.examples.spring.v6x.retry;
 
 import com.google.common.collect.Lists;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.*;
 import org.springframework.retry.*;
 import org.springframework.retry.backoff.BackOffContext;
@@ -21,7 +20,7 @@ import static org.assertj.core.api.Assertions.catchThrowable;
 
 @SuppressWarnings("JavadocReference")
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class RetryTemplateHelloWorldTests {
+public class RetryTemplateCodeModeTests {
     private static final AtomicInteger index = new AtomicInteger();
 
     private static final PrintStream standardOut = System.out;

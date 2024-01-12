@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.vergilyn.examples.spring</groupId>
-        <artifactId>spring-projects-examples</artifactId>
+        <groupId>com.vergilyn.examples.spring.v6x</groupId>
+        <artifactId>spring-v6x-examples</artifactId>
         <version>${revision}</version>
     </parent>
 
-    <groupId>com.vergilyn.examples.spring.retry</groupId>
+    <groupId>com.vergilyn.examples.spring.v6x.retry</groupId>
     <artifactId>spring-retry-examples</artifactId>
     <packaging>pom</packaging>
 
@@ -19,7 +19,6 @@
 
     <properties>
         <version.spring-retry>2.0.5</version.spring-retry>
-        <version.spring-framework>6.0.15</version.spring-framework>
     </properties>
 
     <dependencies>
@@ -28,17 +27,6 @@
             <groupId>org.springframework.retry</groupId>
             <artifactId>spring-retry</artifactId>
             <version>${version.spring-retry}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>${version.spring-framework}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>${version.spring-framework}</version>
         </dependency>
     </dependencies>
 </project>
