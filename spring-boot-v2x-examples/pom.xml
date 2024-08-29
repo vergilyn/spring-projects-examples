@@ -16,6 +16,8 @@
     <modules>
         <module>aop-proxy-spring-boot-v2x-examples</module>
         <module>cache-spring-boot-v2x-examples</module>
+        <module>graceful-shutdown-spring-boot-v2x-examples</module>
+        <module>async-spring-boot-v2x-examples</module>
     </modules>
 
     <properties>
