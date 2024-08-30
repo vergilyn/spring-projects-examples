@@ -1,0 +1,3 @@
+com.vergilyn.examples.spring.noscan.NoScanButFactoriesAutoConfiguration
+# com.vergilyn.examples.spring.noscan.NoScanOnlyInnerClassAutoConfiguration
+# com.vergilyn.examples.spring.noscan.NoScanOnlyInnerClassAutoConfiguration.InnerClass

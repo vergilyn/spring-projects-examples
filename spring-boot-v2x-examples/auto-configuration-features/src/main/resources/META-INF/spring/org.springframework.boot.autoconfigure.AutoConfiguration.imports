@@ -1,0 +1,2 @@
+com.vergilyn.examples.other.NoScanPackagesButFactoriesAutoConfiguration
+com.vergilyn.examples.other.NoScanButFactoriesOutMismatchWithInnerClassAutoConfiguration
