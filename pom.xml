@@ -24,6 +24,7 @@
         <module>spring-v5x-examples</module>
         <module>spring-v6x-examples</module>
         <module>spring-boot-v2x-examples/auto-configuration-features</module>
+        <module>spring-boot-v2x-examples/sbtest-multi-context-feature</module>
     </modules>
 
     <properties>
