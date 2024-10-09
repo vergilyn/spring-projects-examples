@@ -1,0 +1,5 @@
+### hello
+GET http://127.0.0.1:28081/hello?name=world
+
+### actuator/health
+GET http://127.0.0.1:28081/actuator/health
